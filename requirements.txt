@@ -1,0 +1,4 @@
+pyinstaller
+pyqt5
+pyqt5-sip
+pyqt5-qt
