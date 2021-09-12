@@ -1,4 +1,4 @@
-# pdf_merge_tool
+# PDF Merger
 A simple GUI program for merging two PDFs into one.
 
 
