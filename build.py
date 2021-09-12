@@ -22,4 +22,4 @@ for package in excluded:
   exc_file.write(package+'\n')  
 exc_file.close()
 
-subprocess.run(["pyinstaller", "main.spec"], stdout=subprocess.DEVNULL)
+subprocess.check_call([python, '-m', 'PyInstaller', 'main.spec'], stdout=subprocess.DEVNULL)
